@@ -1,0 +1,67 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #121212;
+    color: #f4f4f4;
+}
+
+/* Header */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #1e1e1e;
+}
+
+header .logo {
+    font-size: 1.5em;
+    font-weight: bold;
+    color: #4caf50;
+}
+
+header nav a {
+    color: #f4f4f4;
+    text-decoration: none;
+    margin-left: 15px;
+    font-weight: bold;
+}
+
+header nav a:hover {
+    color: #4caf50;
+}
+
+/* Main Content */
+.main-content {
+    padding: 20px;
+}
+
+h1, h2 {
+    color: #4caf50;
+}
+
+.article-image {
+    width: 100%;
+    height: auto;
+    margin: 10px 0;
+}
+
+/* Ad Space */
+.ad-space {
+    margin: 20px 0;
+    padding: 10px;
+    background-color: #333;
+    color: #999;
+    text-align: center;
+    border: 2px dashed #555;
+}
+
+/* Footer */
+footer {
+    background-color: #1e1e1e;
+    text-align: center;
+    padding: 10px;
+    margin-top: 20px;
+}
